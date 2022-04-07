@@ -1,4 +1,4 @@
-# Keylogger as ChromeExtension
+# Chrome Extension Keylogger
 ## Loading the extension
 1. Open the Extension Management page by navigating to chrome://extensions.
 2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
@@ -19,7 +19,7 @@ python server.py
 python3 server.py
 ```
 ## Output
-### Keep the server script running while visting any login page, logs will be stored in chlog.txt   
+### Keep the server script running while visiting any login page, logs will be stored in chlog.txt   
 ---
 ![Img 1](./documentation/img-1.png)
 ![Img 2](./documentation/img-2.png)
