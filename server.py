@@ -7,22 +7,29 @@ async def hello(websocket, path):
     url = ""
     while True:
         name = await websocket.recv()
+        print("----------------")
+        
+        print(name)
  
+        print("-0-")
+
+        '''
         if(f"{name}"[0] == "p"):
             url = f"{name}"[1:]
             await websocket.send("pong")
         else:
+           ''' 
+        exp = re.compile("(.{0,})\[\](.{0,})")
+        match = exp.match(f"{name}"+" [] "+url)
+        ulocater = match.group(2)
+        tag = match.group(1)
+        f = open('chlog.txt', 'ab+')
+        buff = tag + ulocater +"\n"
+        buff = f"{name}" + "\n"
+        f.write(buff.encode())
+        f.close()
             
-            exp = re.compile("(.{0,})\[\](.{0,})")
-            match = exp.match(f"{name}"+" [] "+url)
-            ulocater = match.group(2)
-            tag = match.group(1)
-            f = open('chlog.txt', 'ab+')
-            buff = tag + ulocater +"\n"
-            f.write(buff.encode())
-            f.close()
-               
-            print(tag,ulocater)
+        print(tag,ulocater)
 
 #ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
 #ssl_context.load_cert_chain(
