@@ -1,6 +1,6 @@
 var inlist = document.getElementsByTagName("input");
 var socket;
-socket = new WebSocket("wss://www.hrii.tk:8765");
+socket = new WebSocket("ws://localhost:8765");
 
 socket.onopen = function(){
 
