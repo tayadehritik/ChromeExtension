@@ -1,0 +1,952 @@
+09-Apr-2022 17:44:46.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 17:44:46.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 17:44:46.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 17:44:46.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 17:44:46.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 17:44:46.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 17:44:46.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 17:44:46.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 17:44:46.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 17:44:46.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:44:46.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:44:46.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 17:44:46.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 17:44:46.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 17:44:46.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 17:44:46.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 17:44:46.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 17:44:46.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 17:44:46.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 17:44:46.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 17:44:46.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 17:44:46.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 17:44:46.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:44:46.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:44:46.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 17:44:46.064 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 17:44:46.222 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:44:46.402 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2594 ms
+09-Apr-2022 17:44:46.605 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 17:44:46.605 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 17:44:46.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 17:44:47.725 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [1,081] ms
+09-Apr-2022 17:44:47.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 17:44:48.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [829] ms
+09-Apr-2022 17:44:48.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 17:44:48.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [67] ms
+09-Apr-2022 17:44:48.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 17:44:48.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [86] ms
+09-Apr-2022 17:44:48.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 17:44:48.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [50] ms
+09-Apr-2022 17:44:48.770 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:44:48.822 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2418 ms
+09-Apr-2022 17:47:18.829 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/hritik/apache-tomcat-8.5.78/conf/tomcat-users.xml]
+09-Apr-2022 17:47:40.367 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 17:47:40.368 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:47:40.373 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 17:47:40.477 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:47:40.492 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:47:46.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 17:47:46.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 17:47:46.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 17:47:46.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 17:47:46.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 17:47:46.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 17:47:46.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 17:47:46.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 17:47:46.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 17:47:46.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:47:46.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:47:46.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 17:47:46.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 17:47:46.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 17:47:46.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 17:47:46.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 17:47:46.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 17:47:46.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 17:47:46.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 17:47:46.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 17:47:46.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 17:47:46.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 17:47:46.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:47:46.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:47:46.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 17:47:46.242 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 17:47:46.416 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:47:46.517 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1857 ms
+09-Apr-2022 17:47:46.804 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 17:47:46.805 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 17:47:46.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 17:47:47.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [863] ms
+09-Apr-2022 17:47:47.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 17:47:48.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [738] ms
+09-Apr-2022 17:47:48.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 17:47:48.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [45] ms
+09-Apr-2022 17:47:48.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 17:47:48.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [60] ms
+09-Apr-2022 17:47:48.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 17:47:48.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [67] ms
+09-Apr-2022 17:47:48.639 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:47:48.690 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2172 ms
+09-Apr-2022 17:50:08.701 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/hritik/apache-tomcat-8.5.78/conf/tomcat-users.xml]
+09-Apr-2022 17:50:14.906 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 17:50:14.907 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:50:14.913 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 17:50:15.034 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:50:15.046 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:50:19.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 17:50:19.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 17:50:19.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 17:50:19.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 17:50:19.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 17:50:19.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 17:50:19.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 17:50:19.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 17:50:19.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 17:50:19.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:50:19.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:50:19.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 17:50:19.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 17:50:19.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 17:50:19.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 17:50:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 17:50:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 17:50:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 17:50:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 17:50:19.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 17:50:19.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 17:50:19.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 17:50:19.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:50:19.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:50:19.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 17:50:19.247 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 17:50:19.363 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:50:19.466 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2080 ms
+09-Apr-2022 17:50:19.616 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 17:50:19.617 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 17:50:19.651 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 17:50:20.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [941] ms
+09-Apr-2022 17:50:20.596 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 17:50:21.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [798] ms
+09-Apr-2022 17:50:21.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 17:50:21.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [61] ms
+09-Apr-2022 17:50:21.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 17:50:21.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [79] ms
+09-Apr-2022 17:50:21.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 17:50:21.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [121] ms
+09-Apr-2022 17:50:21.679 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:50:21.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2258 ms
+09-Apr-2022 17:54:48.403 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 17:54:48.405 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:54:48.413 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 17:54:48.722 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:54:48.737 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:54:54.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 17:54:54.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 17:54:54.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 17:54:54.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 17:54:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 17:54:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 17:54:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 17:54:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 17:54:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 17:54:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:54:54.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:54:54.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 17:54:54.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 17:54:54.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 17:54:54.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 17:54:54.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 17:54:54.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 17:54:54.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 17:54:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 17:54:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 17:54:54.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 17:54:54.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 17:54:54.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:54:54.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:54:54.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 17:54:54.712 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 17:54:54.833 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:54:54.917 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1724 ms
+09-Apr-2022 17:54:55.072 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 17:54:55.073 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 17:54:55.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 17:54:55.955 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [851] ms
+09-Apr-2022 17:54:55.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 17:54:56.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [591] ms
+09-Apr-2022 17:54:56.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 17:54:56.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [42] ms
+09-Apr-2022 17:54:56.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 17:54:56.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [54] ms
+09-Apr-2022 17:54:56.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 17:54:56.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [85] ms
+09-Apr-2022 17:54:56.739 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:54:56.776 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1857 ms
+09-Apr-2022 17:55:26.755 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 17:55:26.883 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [128] ms
+09-Apr-2022 17:55:38.050 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 17:55:38.051 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:55:38.060 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 17:55:38.188 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:55:38.201 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:55:43.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 17:55:43.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 17:55:43.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 17:55:43.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 17:55:43.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 17:55:43.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 17:55:43.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 17:55:43.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 17:55:43.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 17:55:43.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:55:43.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:55:43.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 17:55:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 17:55:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 17:55:43.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 17:55:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 17:55:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 17:55:43.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 17:55:43.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 17:55:43.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 17:55:43.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 17:55:43.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 17:55:43.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:55:43.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 17:55:43.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 17:55:43.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 17:55:44.076 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:55:44.167 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2384 ms
+09-Apr-2022 17:55:44.365 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 17:55:44.365 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 17:55:44.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 17:55:45.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [807] ms
+09-Apr-2022 17:55:45.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 17:55:45.955 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [739] ms
+09-Apr-2022 17:55:45.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 17:55:45.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [42] ms
+09-Apr-2022 17:55:45.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 17:55:46.058 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [58] ms
+09-Apr-2022 17:55:46.058 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 17:55:46.157 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [99] ms
+09-Apr-2022 17:55:46.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 17:55:46.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [62] ms
+09-Apr-2022 17:55:46.244 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 17:55:46.311 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2143 ms
+09-Apr-2022 18:07:35.561 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 18:07:35.562 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:07:35.567 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 18:07:35.687 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:07:35.695 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:07:39.833 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'kyestorePass' to 'password' did not find a matching property.
+09-Apr-2022 18:07:39.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 18:07:39.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 18:07:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 18:07:39.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 18:07:39.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 18:07:39.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 18:07:39.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 18:07:39.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 18:07:39.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 18:07:39.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:07:39.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:07:39.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 18:07:39.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 18:07:39.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 18:07:39.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 18:07:39.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 18:07:39.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 18:07:39.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 18:07:39.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 18:07:39.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 18:07:39.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 18:07:39.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 18:07:39.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:07:39.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:07:39.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 18:07:39.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 18:07:40.052 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:07:40.113 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[org.apache.coyote.http11.Http11AprProtocol-8443]]
+	org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1096)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+09-Apr-2022 18:07:40.134 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1466 ms
+09-Apr-2022 18:07:40.299 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 18:07:40.300 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 18:07:40.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 18:07:41.102 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [749] ms
+09-Apr-2022 18:07:41.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 18:07:41.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [609] ms
+09-Apr-2022 18:07:41.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 18:07:41.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [42] ms
+09-Apr-2022 18:07:41.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 18:07:41.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [56] ms
+09-Apr-2022 18:07:41.815 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 18:07:41.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [77] ms
+09-Apr-2022 18:07:41.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 18:07:41.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [52] ms
+09-Apr-2022 18:07:41.961 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:07:41.989 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1853 ms
+09-Apr-2022 18:10:55.573 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 18:10:55.575 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:10:55.580 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-openssl-apr-8443"]
+09-Apr-2022 18:10:55.581 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 18:10:55.688 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:10:55.699 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:10:55.702 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-openssl-apr-8443"]
+09-Apr-2022 18:10:55.702 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-openssl-apr-8443"]
+09-Apr-2022 18:10:59.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 18:10:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 18:10:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 18:10:59.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 18:10:59.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 18:10:59.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 18:10:59.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 18:10:59.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 18:10:59.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 18:10:59.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:10:59.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:10:59.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 18:10:59.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 18:10:59.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 18:10:59.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 18:10:59.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 18:10:59.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 18:10:59.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 18:10:59.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 18:10:59.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 18:10:59.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 18:10:59.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 18:10:59.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:10:59.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:10:59.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 18:10:59.355 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 18:10:59.515 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:10:59.598 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 18:11:00.317 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1114)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.lang.IllegalArgumentException: /home/hritik/apache-tomcat-8.5.78/conf/localhost-rsa.jks (No such file or directory)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:108)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:72)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:205)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1111)
+		... 13 more
+	Caused by: java.io.FileNotFoundException: /home/hritik/apache-tomcat-8.5.78/conf/localhost-rsa.jks (No such file or directory)
+		at java.base/java.io.FileInputStream.open0(Native Method)
+		at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+		at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:98)
+		at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:198)
+		at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+		at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+		at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:106)
+		... 21 more
+09-Apr-2022 18:11:00.325 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2330 ms
+09-Apr-2022 18:11:00.474 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 18:11:00.474 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 18:11:00.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 18:11:01.329 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [825] ms
+09-Apr-2022 18:11:01.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 18:11:01.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [550] ms
+09-Apr-2022 18:11:01.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 18:11:01.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [37] ms
+09-Apr-2022 18:11:01.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 18:11:01.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [59] ms
+09-Apr-2022 18:11:01.979 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 18:11:02.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [118] ms
+09-Apr-2022 18:11:02.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 18:11:02.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [98] ms
+09-Apr-2022 18:11:02.211 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:11:02.278 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1952 ms
+09-Apr-2022 18:25:03.364 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 18:25:03.365 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:25:03.380 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 18:25:03.381 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 18:25:03.482 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:25:03.502 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:25:03.504 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 18:25:03.505 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 18:25:08.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 18:25:08.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 18:25:08.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 18:25:08.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 18:25:08.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 18:25:08.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 18:25:08.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 18:25:08.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 18:25:08.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 18:25:08.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:25:08.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:25:08.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 18:25:08.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 18:25:08.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 18:25:08.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 18:25:08.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 18:25:08.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 18:25:08.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 18:25:08.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 18:25:08.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 18:25:08.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 18:25:08.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 18:25:08.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:25:08.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 18:25:08.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 18:25:08.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 18:25:08.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:25:08.861 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[org.apache.coyote.http11.Http11AprProtocol-8443]]
+	org.apache.catalina.LifecycleException: The configured protocol [org.apache.coyote.http11.Http11AprProtocol] requires the APR/native library which is not available
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1096)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+09-Apr-2022 18:25:08.863 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1923 ms
+09-Apr-2022 18:25:09.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 18:25:09.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 18:25:09.044 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 18:25:09.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [745] ms
+09-Apr-2022 18:25:09.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 18:25:10.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [675] ms
+09-Apr-2022 18:25:10.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 18:25:10.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [53] ms
+09-Apr-2022 18:25:10.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 18:25:10.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [68] ms
+09-Apr-2022 18:25:10.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 18:25:10.638 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [47] ms
+09-Apr-2022 18:25:10.638 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 18:25:10.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [77] ms
+09-Apr-2022 18:25:10.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 18:25:10.754 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1890 ms
+09-Apr-2022 19:40:35.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 19:40:35.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 19:40:35.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 19:40:35.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 19:40:35.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 19:40:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 19:40:35.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 19:40:35.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 19:40:35.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 19:40:35.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:40:35.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:40:35.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 19:40:35.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 19:40:35.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 19:40:35.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 19:40:35.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 19:40:35.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 19:40:35.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 19:40:35.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 19:40:35.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 19:40:35.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 19:40:35.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 19:40:35.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:40:35.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:40:35.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 19:40:35.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 19:40:35.954 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:36.024 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1114)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:224)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:200)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1111)
+		... 13 more
+09-Apr-2022 19:40:36.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:40:36.448 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1114)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.lang.IllegalArgumentException: /home/hritik/apache-tomcat-8.5.78/conf/localhost-rsa.jks (No such file or directory)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:108)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:72)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:205)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1111)
+		... 13 more
+	Caused by: java.io.FileNotFoundException: /home/hritik/apache-tomcat-8.5.78/conf/localhost-rsa.jks (No such file or directory)
+		at java.base/java.io.FileInputStream.open0(Native Method)
+		at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+		at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:98)
+		at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:198)
+		at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+		at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+		at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:106)
+		... 21 more
+09-Apr-2022 19:40:36.451 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2040 ms
+09-Apr-2022 19:40:36.641 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 19:40:36.642 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 19:40:36.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 19:40:37.322 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [629] ms
+09-Apr-2022 19:40:37.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 19:40:37.815 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [492] ms
+09-Apr-2022 19:40:37.815 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 19:40:37.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [34] ms
+09-Apr-2022 19:40:37.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 19:40:37.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [51] ms
+09-Apr-2022 19:40:37.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 19:40:37.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [42] ms
+09-Apr-2022 19:40:37.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 19:40:38.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [56] ms
+09-Apr-2022 19:40:38.011 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1559 ms
+09-Apr-2022 19:40:38.016 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:446)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:783)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:729)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+09-Apr-2022 19:40:38.017 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:38.018 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:40:38.018 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 19:40:38.079 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:38.082 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:38.082 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:40:38.083 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:40:40.909 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 19:40:40.911 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:40.917 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-openssl-apr-8443"]
+09-Apr-2022 19:40:40.918 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 19:40:41.011 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:41.026 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:40:41.027 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-openssl-apr-8443"]
+09-Apr-2022 19:40:41.027 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-openssl-apr-8443"]
+09-Apr-2022 19:47:20.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 19:47:20.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 19:47:20.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 19:47:20.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 19:47:20.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 19:47:20.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 19:47:20.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 19:47:20.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 19:47:20.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 19:47:20.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:47:20.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:47:20.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 19:47:20.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 19:47:20.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 19:47:20.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 19:47:20.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 19:47:20.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 19:47:20.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 19:47:20.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 19:47:20.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 19:47:20.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 19:47:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 19:47:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:47:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:47:20.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 19:47:20.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 19:47:21.041 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:47:21.106 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:47:21.656 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1114)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.lang.IllegalArgumentException: keystore password was incorrect
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:108)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:72)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:205)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1111)
+		... 13 more
+	Caused by: java.io.IOException: keystore password was incorrect
+		at java.base/sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStore.java:2116)
+		at java.base/sun.security.util.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:243)
+		at java.base/java.security.KeyStore.load(KeyStore.java:1479)
+		at org.apache.tomcat.util.security.KeyStoreUtil.load(KeyStoreUtil.java:69)
+		at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:216)
+		at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+		at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+		at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:106)
+		... 21 more
+	Caused by: java.security.UnrecoverableKeyException: failed to decrypt safe contents entry: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+		... 30 more
+09-Apr-2022 19:47:21.660 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1885 ms
+09-Apr-2022 19:47:21.781 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 19:47:21.782 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 19:47:21.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 19:47:22.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [657] ms
+09-Apr-2022 19:47:22.469 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 19:47:23.034 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [565] ms
+09-Apr-2022 19:47:23.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 19:47:23.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [46] ms
+09-Apr-2022 19:47:23.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 19:47:23.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [68] ms
+09-Apr-2022 19:47:23.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 19:47:23.210 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [59] ms
+09-Apr-2022 19:47:23.210 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 19:47:23.260 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [50] ms
+09-Apr-2022 19:47:23.276 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:47:23.316 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1655 ms
+09-Apr-2022 19:48:27.093 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 19:48:27.094 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:48:27.101 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:48:27.102 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 19:48:27.217 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:48:27.229 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:48:27.230 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:48:27.231 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:48:30.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 19:48:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 19:48:30.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 19:48:30.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 19:48:30.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 19:48:30.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 19:48:30.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 19:48:30.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 19:48:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 19:48:30.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:48:30.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:48:30.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 19:48:30.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 19:48:30.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 19:48:30.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 19:48:30.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 19:48:30.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 19:48:30.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 19:48:30.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 19:48:30.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 19:48:30.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 19:48:30.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 19:48:30.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:48:30.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:48:30.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 19:48:30.431 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 19:48:30.685 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:48:30.854 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:48:31.543 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8443]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1114)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.lang.IllegalArgumentException: /home/hritik/apache-tomcat-8.5.78/conf/store.jks (No such file or directory)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:108)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.initialiseSsl(AbstractJsseEndpoint.java:72)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:205)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1111)
+		... 13 more
+	Caused by: java.io.FileNotFoundException: /home/hritik/apache-tomcat-8.5.78/conf/store.jks (No such file or directory)
+		at java.base/java.io.FileInputStream.open0(Native Method)
+		at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+		at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:98)
+		at org.apache.tomcat.util.net.SSLUtilBase.getStore(SSLUtilBase.java:198)
+		at org.apache.tomcat.util.net.SSLHostConfigCertificate.getCertificateKeystore(SSLHostConfigCertificate.java:207)
+		at org.apache.tomcat.util.net.SSLUtilBase.getKeyManagers(SSLUtilBase.java:282)
+		at org.apache.tomcat.util.net.SSLUtilBase.createSSLContext(SSLUtilBase.java:246)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.createSSLContext(AbstractJsseEndpoint.java:106)
+		... 21 more
+09-Apr-2022 19:48:31.550 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2475 ms
+09-Apr-2022 19:48:31.697 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 19:48:31.699 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 19:48:31.731 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 19:48:32.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [640] ms
+09-Apr-2022 19:48:32.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 19:48:32.950 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [577] ms
+09-Apr-2022 19:48:32.951 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 19:48:32.991 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [40] ms
+09-Apr-2022 19:48:32.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 19:48:33.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [61] ms
+09-Apr-2022 19:48:33.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 19:48:33.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [66] ms
+09-Apr-2022 19:48:33.123 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 19:48:33.204 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [78] ms
+09-Apr-2022 19:48:33.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:48:33.292 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1741 ms
+09-Apr-2022 19:50:20.811 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 19:50:20.813 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:50:20.821 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:50:20.821 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 19:50:20.913 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:50:20.929 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:50:20.930 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:50:20.932 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:50:24.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 19:50:24.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 19:50:24.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 19:50:24.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 19:50:24.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 19:50:24.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 19:50:24.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 19:50:24.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 19:50:24.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 19:50:24.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:50:24.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:50:24.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 19:50:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 19:50:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 19:50:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 19:50:24.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 19:50:24.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 19:50:24.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 19:50:24.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 19:50:24.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 19:50:24.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 19:50:24.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 19:50:24.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:50:24.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:50:24.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 19:50:24.546 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 19:50:24.663 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:50:24.730 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:50:25.859 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2752 ms
+09-Apr-2022 19:50:25.979 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 19:50:25.980 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 19:50:26.015 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 19:50:26.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [554] ms
+09-Apr-2022 19:50:26.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 19:50:27.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [741] ms
+09-Apr-2022 19:50:27.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 19:50:27.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [61] ms
+09-Apr-2022 19:50:27.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 19:50:27.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [65] ms
+09-Apr-2022 19:50:27.441 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 19:50:27.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [51] ms
+09-Apr-2022 19:50:27.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 19:50:27.554 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [60] ms
+09-Apr-2022 19:50:27.567 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:50:27.620 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:50:27.700 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1839 ms
+09-Apr-2022 19:58:58.820 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/hritik/apache-tomcat-8.5.78/conf/tomcat-users.xml]
+09-Apr-2022 19:59:07.377 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 19:59:07.379 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:59:07.385 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:59:07.386 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 19:59:07.513 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:59:07.520 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:59:07.539 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:59:07.542 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:59:33.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 19:59:33.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 19:59:33.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 19:59:33.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 19:59:33.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 19:59:33.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 19:59:33.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 19:59:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 19:59:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 19:59:33.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:59:33.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:59:33.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 19:59:33.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 19:59:33.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 19:59:33.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 19:59:33.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 19:59:33.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 19:59:33.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 19:59:33.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 19:59:33.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 19:59:33.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 19:59:33.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 19:59:33.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:59:33.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 19:59:33.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 19:59:33.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 19:59:33.456 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:59:33.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:59:34.793 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3039 ms
+09-Apr-2022 19:59:35.036 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 19:59:35.037 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 19:59:35.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 19:59:35.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [714] ms
+09-Apr-2022 19:59:35.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 19:59:36.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [659] ms
+09-Apr-2022 19:59:36.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 19:59:36.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [67] ms
+09-Apr-2022 19:59:36.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 19:59:36.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [67] ms
+09-Apr-2022 19:59:36.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 19:59:36.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [69] ms
+09-Apr-2022 19:59:36.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 19:59:36.766 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [102] ms
+09-Apr-2022 19:59:36.781 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 19:59:36.823 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 19:59:36.845 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2051 ms
+09-Apr-2022 20:05:37.224 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Apr-2022 20:05:37.225 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 20:05:37.231 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 20:05:37.234 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2022 20:05:37.358 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 20:05:37.368 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 20:05:37.383 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 20:05:37.387 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 20:05:42.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+09-Apr-2022 20:05:42.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+09-Apr-2022 20:05:42.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+09-Apr-2022 20:05:42.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2022 20:05:42.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+09-Apr-2022 20:05:42.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2022 20:05:42.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+09-Apr-2022 20:05:42.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+09-Apr-2022 20:05:42.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+09-Apr-2022 20:05:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 20:05:42.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 20:05:42.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2022 20:05:42.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2022 20:05:42.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2022 20:05:42.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2022 20:05:42.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2022 20:05:42.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/hritik/apache-tomcat-8.5.78/conf/logging.properties
+09-Apr-2022 20:05:42.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2022 20:05:42.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2022 20:05:42.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2022 20:05:42.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2022 20:05:42.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2022 20:05:42.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 20:05:42.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/hritik/apache-tomcat-8.5.78
+09-Apr-2022 20:05:42.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/hritik/apache-tomcat-8.5.78/temp
+09-Apr-2022 20:05:42.685 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+09-Apr-2022 20:05:42.811 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 20:05:42.903 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 20:05:44.360 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3934 ms
+09-Apr-2022 20:05:44.621 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2022 20:05:44.622 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+09-Apr-2022 20:05:44.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT]
+09-Apr-2022 20:05:45.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/ROOT] has finished in [920] ms
+09-Apr-2022 20:05:45.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples]
+09-Apr-2022 20:05:46.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/examples] has finished in [841] ms
+09-Apr-2022 20:05:46.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs]
+09-Apr-2022 20:05:46.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/docs] has finished in [86] ms
+09-Apr-2022 20:05:46.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager]
+09-Apr-2022 20:05:46.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/host-manager] has finished in [142] ms
+09-Apr-2022 20:05:46.690 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager]
+09-Apr-2022 20:05:46.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/manager] has finished in [77] ms
+09-Apr-2022 20:05:46.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps]
+09-Apr-2022 20:05:46.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/hritik/apache-tomcat-8.5.78/webapps/myapps] has finished in [129] ms
+09-Apr-2022 20:05:46.925 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2022 20:05:47.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+09-Apr-2022 20:05:47.077 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2715 ms
